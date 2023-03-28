@@ -2,7 +2,9 @@ import React from "react"
 import axios from "axios"
 
 import './App.css'
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan&display=swap" rel="stylesheet">
 class App extends React.Component {
 
     state = {
@@ -32,12 +34,6 @@ class App extends React.Component {
             <div className="app">
                 <div className="card">
                     <h1 className="heading">{advice}</h1>
-                    <button 
-                        className="button"
-                        onClick={this.fetchAdvice}
-                    >
-                        <span>GIVE ME ADVICE</span>
-                    </button>
                 </div>
             </div>
         )

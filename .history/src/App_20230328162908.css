@@ -62,7 +62,7 @@
     
   .button:hover {
     animation: rotate 0.7s ease-in-out both;
-    background-color: #ccc;
+    background-color: line;
   }
     
   .button:hover span {

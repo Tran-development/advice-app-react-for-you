@@ -36,7 +36,7 @@ class App extends React.Component {
                         className="button"
                         onClick={this.fetchAdvice}
                     >
-                        <span>GIVE ME ADVICE</span>
+                        <span>GIVE ME ADVICE 	&#xf6be;</span>
                     </button>
                 </div>
             </div>
